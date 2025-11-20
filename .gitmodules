@@ -1,0 +1,6 @@
+[submodule "demo-frontend"]
+	path = demo-frontend
+	url = https://github.com/wqr11/demo-frontend.git
+[submodule "demo-backend"]
+	path = demo-backend
+	url = https://github.com/wqr11/demo-backend.git

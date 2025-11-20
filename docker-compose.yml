@@ -1,0 +1,3 @@
+include:
+  - demo-backend/docker-compose.yml
+  - demo-frontend/docker-compose.yml
