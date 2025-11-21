@@ -1,3 +1,14 @@
 include:
   - demo-backend/docker-compose.yml
-  - demo-frontend/docker-compose.yml
+services:
+  frontend:
+    build:
+      context: demo-frontend
+      dockerfile: Dockerfile
+    env_file:
+      - demo-frontend/.env
+    depends_on:
+      - backend
+    restart: always
+    ports:
+      - 3000:80
