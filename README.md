@@ -12,7 +12,14 @@ cd demo &&\
 git submodule init &&\
 git submodule update --recursive --remote
 ```
-### 2) Запустите docker compose
+
+### 2) Скопируйте содержимое .env.example в файл .env внутри модулей
+```bash
+cp demo-backend/.env.example demo-backend/.env &&\
+cp demo-frontend/.env.example demo-frontend/.env
+```
+
+### 3) Запустите docker compose
 ```bash
 docker compose up --build
 ```
