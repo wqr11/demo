@@ -4,7 +4,18 @@
 - Телефон: +79379948305
 - Telegram - https://t.me/xpand3xxwqr1
 
-## Быстрый старт
+# 🚀 Быстрый старт
+```bash
+git clone https://github.com/wqr11/demo.git &&\
+cd demo &&\
+git submodule init &&\
+git submodule update --recursive --remote &&\
+cp demo-backend/.env.example demo-backend/.env &&\
+cp demo-frontend/.env.example demo-frontend/.env &&\
+docker compose up --build
+```
+
+## ⚙ Команды в отдельности 
 ### 1) Склонируйте репозиторий и инициализируйте подмодули
 ```bash
 git clone https://github.com/wqr11/demo.git &&\
