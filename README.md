@@ -1,5 +1,6 @@
 # Тестовое задание - Кондратьев Дмитрий Олегович
 #### Моё резюме: https://kazan.hh.ru/resume/e5f933f2ff0d7ea3370039ed1f663175394c6f
+#### ТЗ: https://docs.google.com/document/d/16fR8yRFT8uSrpWAf6mvVJxAH4jnbgjbSaJQcC9CP8NE
 - Почта: dimakond520@gmail.com
 - Телефон: +79379948305
 - Telegram - https://t.me/xpand3xxwqr1
